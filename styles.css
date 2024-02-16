@@ -1,0 +1,78 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+body {
+     background-color: #f4f4f4;
+     margin: 0;
+     padding: 0;
+   }
+   
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    font-family : "Roboto", sans-serif ;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif ;
+    font-weight: bolder;
+  }
+  
+  .product .price {
+    margin-left: auto;
+  }
+  
+  .product button {
+    padding: 5px 10px;
+    background-color: #dbe8f7;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+   margin: 10px;
+  }
+  
+  .quantity {
+    margin: 0 10px;
+  }
+  
+  .total {
+    font-family: "Roboto", sans-serif ;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: right;
+    margin-top: 20px;
+  }
+  .pay{
+    font-family: "Roboto", sans-serif ;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(146, 171, 226);
+    border: none;
+    
+  }
+  
+  #photo1{
+    width: 60px;
+  }
+  #photo2{
+    width: 60px;
+  }
+  
+  .product .delete {
+    background-color: red;
+  }
